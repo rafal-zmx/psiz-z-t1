@@ -1,0 +1,31 @@
+# Task 1 
+
+## List implementation
+
+This repository is intended to be used during the online classes. The aim of the task is to implement the list in cpp language in agile methodology. 
+
+## What shall be implemented? 
+
+I would like to use list implementation in the application for parking lot. 
+You can find here-after an example of the code that shall be provided to the user : 
+
+int main()
+{
+  List * pFirstFloor = initList(); // I can create one list per parking floor
+  addCar(pFirstFloor, "EL020GM", time()); // I can add cars with plate numbers and time of enetry
+  printAll(pFirstFloor); // I can print all the elements from the list
+  removeCar(pFirstFloor, "EL020GM"); // I can remove cars using their plate numbers
+  deinitList(pFirstFloor); //I destroy the created list
+}
+
+## How the project shall be structured
+
+I would like to have three files: 
+- parkingList.hpp
+- parkingList.cpp
+- main.cpp 
+
+## How we do start?
+
+1. Toolchain - we must agree on common toolchain used for this project
+2. parkingList.hpp - Before writing any line of code and any compiling it, we will agree on the list design.
