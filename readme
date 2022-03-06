@@ -16,3 +16,8 @@ void michal_turowski(void)
 {
 	Michał Turowski
 }
+
+void kacper_golan(void)
+{
+	Kacper Golan
+}
