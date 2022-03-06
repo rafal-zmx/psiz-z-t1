@@ -12,6 +12,10 @@ void artur_szyplakowski(void)
 	Artur Szypłakowski
 }
 
+void michal_turowski(void)
+{
+	Michał Turowski
+}
 
 void kacper_golan(void)
 {
