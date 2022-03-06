@@ -11,3 +11,9 @@ void artur_szyplakowski(void)
 {
 	Artur Szypłakowski
 }
+
+
+void kacper_golan(void)
+{
+	Kacper Golan
+}
