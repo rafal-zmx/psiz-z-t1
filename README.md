@@ -1,1 +1,4 @@
-task1_list
+void pawel_tomaszewski(void)
+{
+	Paweł Tomaszewski
+}
