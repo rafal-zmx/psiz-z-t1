@@ -25,3 +25,8 @@ void weronika_majchrzak(void)
 {
 	Weronika Majchrzak
 }
+
+void michal_kazmierski(void)
+{
+	Michał Kaźmierski
+}
