@@ -25,6 +25,12 @@ void weronika_majchrzak(void)
 {
 	Weronika Majchrzak
 }
+
+void michal_kazmierski(void)
+{
+	Michał Kaźmierski
+}
+
 void pawel_tomaszewski(void)
 {
 	Paweł Tomaszewski
