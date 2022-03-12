@@ -44,3 +44,8 @@ void pawel_tomaszewski(void)
 {
 	Paweł Tomaszewski
 }
+
+void mateusz_zielinski(void)
+{
+	Mateusz Zieliński
+}
