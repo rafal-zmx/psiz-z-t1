@@ -6,7 +6,7 @@
 List* initList(void)
 {
 	List* pRoot = (List*)malloc(sizeof(*pRoot));
-	
+	pRoot = null;
 	return pRoot;
 }
 
