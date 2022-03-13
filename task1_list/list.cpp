@@ -7,6 +7,12 @@ List* initList(void)
 {
 	List* pRoot = (List*)malloc(sizeof(*pRoot));
 	pRoot = null;
+	
+	char nrRej = "EL1564";
+	pRoot->nrRej;
+	void addCar(List* pRoot, nrRej);
+	
+	deinitList
 	return pRoot;
 }
 
