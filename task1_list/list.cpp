@@ -6,6 +6,7 @@
 List* initList(void)
 {
 	List* pRoot = (List*)malloc(sizeof(*pRoot));
+	addCar(List* pRoot, char* plateNum);
 	
 	return pRoot;
 }
