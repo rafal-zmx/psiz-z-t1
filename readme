@@ -6,7 +6,6 @@ void jan_kowalski(void)
 	Jan Kowalski
 }
 
-
 void artur_szyplakowski(void)
 {
 	Artur Szypłakowski
@@ -25,12 +24,28 @@ void weronika_majchrzak(void)
 {
 	Weronika Majchrzak
 }
+
 void rafal_abucewicz(void)
 {
 	Rafał Abucewicz
 }
 
-void rafal_abucewicz(void)
+void patryk_szadkowski(void)
 {
-	Rafał Abucewicz
+	Patryk Szadkowski
+}
+
+void mateusz_kazmierski(void)
+{
+	Mateusz Kaźmierski
+}
+
+void michal_kazmierski(void)
+{
+	Michał Kaźmierski
+}
+
+void pawel_tomaszewski(void)
+{
+	Paweł Tomaszewski
 }
