@@ -1,30 +1,34 @@
 ========================================================================
-    C++/WinRT task1_list Project Overview
+    Zadanie IV
 ========================================================================
 
-This project demonstrates how to get started consuming Windows Runtime 
-classes directly from standard C++, using platform projection headers
-generated from Windows SDK metadata files.
+Napisz program ktory oblicza BER (Bit Error Rate) dla dwóch dowolnych plików.
 
-Steps to generate and consume SDK platform projection:
-1. Build project initially to generate platform projection headers into
-    your Generated Files folder.
-2. Include a projection namespace header in your pch.h, such as 
-    <winrt/Windows.Foundation.h>.
-3. Consume winrt namespace and any Windows Runtime namespaces, such as 
-    winrt::Windows::Foundation, from source code.
-4. Initialize apartment via init_apartment() and consume winrt classes.
+Swoją pracę utrzymaj na repozytorium na github. 
 
-Steps to generate and consume a projection from third party metadata:
-1. Add a WinMD reference by right-clicking the References project node
-    and selecting "Add Reference...".  In the Add References dialog, 
-    browse to the component WinMD you want to consume and add it.
-2. Build the project once to generate projection headers for the 
-    referenced WinMD file under the "Generated Files" subfolder.
-3. As above, include projection headers in pch or source code 
-    to consume projected Windows Runtime classes.
+Twoja praca musi być udokumentowana przez kolejne commity.
+
+
+
+Wymagania dla programu :
+
+
+
+1. Program konsolowy. Jako dwa argumenty przyjmuje ścieżki do plików dla których oblicza wartość BER.
+
+2. Wynik obliczeń drukowany jest w konsoli (Jako wynik podajemy: Ilość porównanych bitów, ilość różnych bitów, wynik BER, czas obliczeń)
+
+3. Program tworzy plik log.txt w którym zapisuje swoje logi. Każda wiadomość rozpoczyna się od timestamp'a.
+
+4. Test 1: Przygotuj dwa identyczne pliki zawierające binarnie zapisaną wartość 0x55. Każdy plik po 100 Bajtów. 
+
+5. Test 2: Przygotuj dwa pliki każdy po 100 bajtów. Pierwszy zawiera binarnie zapisaną wartość 0x55. Drugi plik różni się od pierwszego o dowolne 10 bitów.
+
+6. Test 3: Przygotuje dwa pliki każdy po 400 MB. Pierwszy zawiera binarnie zapisaną wartość 0x55. Drugi plik zawiera binarnie zapisaną wartość 0x50.
+
+
+
+Podaj wynik działania programu BER dla podanych plików testowych (Wyniki zapisane w pliku z logami) 
 
 ========================================================================
-Learn more about C++/WinRT here:
-http://aka.ms/cppwinrt/
-========================================================================
+
